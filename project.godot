@@ -43,6 +43,10 @@ move_right={
 ]
 }
 
+[physics]
+
+2d/default_gravity=982.0
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
