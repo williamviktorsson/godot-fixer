@@ -218,9 +218,6 @@ _data = {
 
 [node name="Game" type="Node2D"]
 
-[node name="GUI" parent="." instance=ExtResource("1_0tnpc")]
-visible = false
-
 [node name="GameManager" type="Node" parent="."]
 unique_name_in_owner = true
 script = ExtResource("1_l4ihi")
@@ -244,6 +241,12 @@ zoom = Vector2(4, 4)
 limit_bottom = 120
 limit_smoothed = true
 position_smoothing_enabled = true
+
+[node name="GUI" parent="Player/Camera2D" instance=ExtResource("1_0tnpc")]
+offset_left = -34.0
+offset_top = -30.0
+offset_right = -34.0
+offset_bottom = -30.0
 
 [node name="Killzone" parent="." instance=ExtResource("5_x8euu")]
 position = Vector2(74, 141)

@@ -219,7 +219,7 @@ _data = {
 [node name="Game" type="Node2D"]
 
 [node name="GUI" parent="." instance=ExtResource("1_0tnpc")]
-visible = false
+follow_viewport_enabled = true
 
 [node name="GameManager" type="Node" parent="."]
 unique_name_in_owner = true
