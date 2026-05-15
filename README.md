@@ -1,6 +1,10 @@
-# First game in Godot
-Project files for our video on making your first game in Godot.
+# Fel att fixa
 
-Check out the videos on the [Brackeys YouTube Channel](http://youtube.com/brackeys).
+1. Karaktären hoppar för högt
+2. Karaktären faller för fort
+3. Karaktären springer baklänges
+4. Poäng går ned och inte upp
 
-Everything is free to use, also commercially (public domain).
+Instruktioner nedan:
+
+![instructions.png](./instructions.png)
